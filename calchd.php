@@ -21,7 +21,7 @@
 
           <center>
             <img src="logo-armazenamento.png" alt="Imagem de página não encontrada" width="360" height="120" class="center" />
-            <p>Quantas câmeras serão gravadas:</p>
+            <p>Quantas câmeras serão gravadas?</p>
             <input type="number" min="0" class=ncam name=ncam value="16"> <br>
 
             <p>Qual será o bit rate utilizado?</p>
@@ -41,7 +41,7 @@
             <p>Quantas horas por dia serão gravadas?</p>
             <input type="number" min="0" max="24" name=hour value="24"> <br>
 
-            <p>Quantos dias você deseja que seja gravado?</p>
+            <p>Quantos dias serão gravados?</p>
             <input type="number" min="0" name=days value="30"> <br>
 
             <br>
@@ -68,7 +68,9 @@
 					$bit_tb_p = ($bit_tb/100)*5;
 
 					$bit_tb = ceil($bit_tb - $bit_tb_p);
-					echo nl2br("Você precisa de um HD que armazene ".$bit_tb." TB, consulte \n os HD's disponíveis clicando <a href='https://www.intelbras.com/pt-br/discos-rigidos-para-cftv-hds-wd-purpletm'>aqui</a>.");
+                    echo nl2br("Você precisa de ".$bit_tb." TB de armazenamento, consulte \n os HD's disponíveis clicando <a href='https://www.intelbras.com/pt-br/discos-rigidos-para-cftv-hds-wd-purpletm'>aqui</a>.");
+
+
 				} else {
 					echo "Insira os dados acima para estimar o HD necessário.";
 				};
