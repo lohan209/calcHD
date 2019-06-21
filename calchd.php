@@ -42,51 +42,55 @@
     <div class="container">
 
       <div class="box">
-        <form action="calchd.php" method="post">
-
-          <center>
-            <br><br>
-            <img src="logo-armazenamento.png" alt="Imagem de página não encontrada" class="center logo img-fluid" />
-            <p>Quantas câmeras serão gravadas?</p>
-            <input type="number" min="0" class=ncam name=ncam value="<?php echo (isset($ncam))?$ncam:'';?>"> <br>
-
-            <p>Qual será o bit rate utilizado?</p>
-            <select name="bitrate" class="bitrate" name=bitrate value="<?php echo (isset($bitrate))?$bitrate:'';?> selected">
-            	<option value="bitrate" disabled> Selecione o valor de bit rate.</option>
-                <option value="32"<?=$bitrate == '32' ? ' selected="selected"' : '';?>>32</option>
-                <option value="64"<?=$bitrate == '64' ? ' selected="selected"' : '';?>>64</option>
-                <option value="128"<?=$bitrate == '128' ? ' selected="selected"' : '';?>>128</option>
-                <option value="256"<?=$bitrate == '256' ? ' selected="selected"' : '';?>>256</option>
-                <option value="512"<?=$bitrate == '512' ? ' selected="selected"' : '';?>>512</option>
-                <option value="1024"<?=$bitrate == '1024' ? ' selected="selected"' : '';?>>1024</option>
-                <option value="2048"<?=$bitrate == '2048' ? ' selected="selected"' : '';?>>2048</option>
-                <option value="4096"<?=$bitrate == '4096' ? ' selected="selected"' : '';?>>4096</option>
-                <option value="8192"<?=$bitrate == '8192' ? ' selected="selected"' : '';?>>8192</option>
-                <option value="10240"<?=$bitrate == '10240' ? ' selected="selected"' : '';?>>10240</option>
-                <option value="12288"<?=$bitrate == '12288' ? ' selected="selected"' : '';?>>12288</option>
-                <option value="14336"<?=$bitrate == '14336' ? ' selected="selected"' : '';?>>14336</option>
-
-            </select>
-
-            <p>Quantas horas por dia serão gravadas?</p>
-            <input type="number" min="0" max="24" name=hour value="<?php echo (isset($hour))?$hour:'';?>"> <br>
-
-            <p>Quantos dias serão gravados?</p>
-            <input type="number" min="0" name=days value="<?php echo (isset($days))?$days:'';?>"> <br>
-
-            <br>
-            <br>
-            <input type="submit" value="Calcular" class="calc">
-            <br>
-            <br>
-          </center>
-        </form> 
-
-        <center>
-            <?php echo (isset($msg))?$msg:'';?>
-        </center>
         <br>
+        <br>
+        <br>
+        <div class="b1">
+            <form action="calchd.php" method="post">
 
+              <center>
+                <img src="logo-armazenamento.png" alt="Imagem de página não encontrada" class="center logo img-fluid" />
+                <p>Quantas câmeras serão gravadas?</p>
+                <input type="number" min="0" class=ncam name=ncam value="<?php echo (isset($ncam))?$ncam:'';?>"> <br>
+
+                <p>Qual será o bit rate utilizado?</p>
+                <select name="bitrate" class="bitrate" name=bitrate value="<?php echo (isset($bitrate))?$bitrate:'';?> selected">
+                	<option value="bitrate" disabled> Selecione o valor de bit rate.</option>
+                    <option value="32"<?=$bitrate == '32' ? ' selected="selected"' : '';?>>32</option>
+                    <option value="64"<?=$bitrate == '64' ? ' selected="selected"' : '';?>>64</option>
+                    <option value="128"<?=$bitrate == '128' ? ' selected="selected"' : '';?>>128</option>
+                    <option value="256"<?=$bitrate == '256' ? ' selected="selected"' : '';?>>256</option>
+                    <option value="512"<?=$bitrate == '512' ? ' selected="selected"' : '';?>>512</option>
+                    <option value="1024"<?=$bitrate == '1024' ? ' selected="selected"' : '';?>>1024</option>
+                    <option value="2048"<?=$bitrate == '2048' ? ' selected="selected"' : '';?>>2048</option>
+                    <option value="4096"<?=$bitrate == '4096' ? ' selected="selected"' : '';?>>4096</option>
+                    <option value="8192"<?=$bitrate == '8192' ? ' selected="selected"' : '';?>>8192</option>
+                    <option value="10240"<?=$bitrate == '10240' ? ' selected="selected"' : '';?>>10240</option>
+                    <option value="12288"<?=$bitrate == '12288' ? ' selected="selected"' : '';?>>12288</option>
+                    <option value="14336"<?=$bitrate == '14336' ? ' selected="selected"' : '';?>>14336</option>
+
+                </select>
+
+                <p>Quantas horas por dia serão gravadas?</p>
+                <input type="number" min="0" max="24" name=hour value="<?php echo (isset($hour))?$hour:'';?>"> <br>
+
+                <p>Quantos dias serão gravados?</p>
+                <input type="number" min="0" name=days value="<?php echo (isset($days))?$days:'';?>"> <br>
+
+                <br>
+                <br>
+                <input type="submit" value="Calcular" class="calc">
+                <br>
+                <br>
+              </center>
+            </form> 
+
+            <center>
+                <?php echo (isset($msg))?$msg:'';?>
+            </center>
+        </div>
+        <br>
+        <br>
       </div>
     </div>
 
