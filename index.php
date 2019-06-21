@@ -20,13 +20,13 @@
           <a href="calchd.php" class="btn btn-default mesmotamanho">Calculadora de HD</a>
         </div>
         <div class="b2">
-          <a href="calchd.php" class="btn btn-default mesmotamanho">Calculadora de Tempo</a>
+          <a href="calchd.php" class="btn btn-default mesmotamanho">Calculadora Teste</a>
         </div>
         <div class="b3">
-          <a href="calchd.php" class="btn btn-default mesmotamanho">Calculadora de BitRate</a> 
+          <a href="calchd.php" class="btn btn-default mesmotamanho">Calculadora Teste/a> 
         </div>
          <div class="b4"> 
-          <a href="calchd.php" class="btn btn-default mesmotamanho">Calculadora de Amor</a>
+          <a href="calchd.php" class="btn btn-default mesmotamanho">Calculadora Teste</a>
         </div>
     </div>
 
