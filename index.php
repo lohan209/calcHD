@@ -23,7 +23,7 @@
           <a href="calchd.php" class="btn btn-default mesmotamanho">Calculadora Teste</a>
         </div>
         <div class="b3">
-          <a href="calchd.php" class="btn btn-default mesmotamanho">Calculadora Teste/a> 
+          <a href="calchd.php" class="btn btn-default mesmotamanho">Calculadora Teste</a> 
         </div>
          <div class="b4"> 
           <a href="calchd.php" class="btn btn-default mesmotamanho">Calculadora Teste</a>
