@@ -45,6 +45,8 @@
         <form action="calchd.php" method="post">
 
           <center>
+            <br>
+
             <img src="logo-armazenamento.png" alt="Imagem de página não encontrada" class="center logo img-fluid" />
             <p>Quantas câmeras serão gravadas?</p>
             <input type="number" min="0" class=ncam name=ncam value="<?php echo (isset($ncam))?$ncam:'';?>"> <br>
@@ -84,6 +86,7 @@
         <center>
             <?php echo (isset($msg))?$msg:'';?>
         </center>
+        <br>
 
       </div>
     </div>
