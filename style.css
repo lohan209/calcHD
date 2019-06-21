@@ -32,8 +32,15 @@ li{
 .box{
 	border-style: solid;
 	border-color: #00a335;
-	background-color: white;
+	background-color: #00a335;
 	border-radius: 6px;
+}
+
+.box > div{
+	background-color: white;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #00A335;
 }
 
 input[type="number"] {
