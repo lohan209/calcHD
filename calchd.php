@@ -78,10 +78,8 @@
                 <input type="number" min="0" name=days value="<?php echo (isset($days))?$days:'';?>"> <br>
 
                 <br>
-                <br>
                 <input type="submit" value="Calcular" class="calc">
-                <br>
-                <br>
+
               </center>
             </form> 
 
