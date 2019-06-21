@@ -95,3 +95,77 @@ img{
 }
 
 
+.intelbras-modal-overlay {
+  position: fixed;
+  z-index: 9999;
+  top: -5000px;
+  right: -5000px;
+  bottom: -5000px;
+  left: -5000px;
+  display: none;
+  background: rgba(43, 46, 56, 0.9);}
+
+.intelbras-modal-wrapper {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  padding: 10px 10px 0;
+  overflow: auto;
+  text-align: center;
+  -webkit-overflow-scrolling: touch;}
+  
+ .intelbras-modal {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 35px;
+  transform: translate3d(0, 0, 0);
+  color: #2b2e38;
+  background: #fff;  
+  text-align: left;
+  border-radius: 3px;
+}
+
+.intelbras-modal-confirm {
+  color: #fff;
+  background: #00a335;
+  border: #00a335 2px solid;}
+
+.intelbras-modal-confirm:hover,
+.intelbras-modal-confirm:focus {
+  background: #00863F;
+  color: #fff;
+  border: #00863F 2px solid;}
+
+.intelbras-modal-cancel {
+  color: #3e5055;
+  background: #fff;
+  border: #8b979f 2px solid;}
+
+.intelbras-modal-cancel:hover,
+.intelbras-modal-cancel:focus {
+  background: #Ebeeee;
+  border: #8b979f 2px solid;
+  color: #3e5055;}
+
+.intelbras-modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  overflow: visible;
+  width: 35px;
+  height: 35px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  transition: color 0.2s;
+  text-decoration: none;
+  color: #95979c;
+  border: 0;
+  outline: 0;
+  background: transparent;}
