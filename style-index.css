@@ -1,0 +1,50 @@
+section {
+	font-family: "SF Pro", "Roboto", "Arial", "Helvetica", sans-serif;
+   	font-size: 24px;
+   	background: #ffffff;
+   	}
+
+a.btn{
+	font-family: "SF Pro", "Roboto", "Arial", "Helvetica", sans-serif;
+	font-weight: 500;
+	background: #00a335;
+	color: #ffffff;
+	border: 0;
+	border-radius: 3px;
+	padding: 25px 75px;
+	font-size: 16px;
+}
+
+a.btn:hover{
+	background: #00863F;
+	color: #ffffff;
+
+}
+
+.mesmotamanho{
+    width: 100%;
+}
+
+.container-index{
+	background: #fff;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.box-index{
+	border-style: solid;
+	border-color: #00a335;
+	background-color: white;
+	border-radius: 6px;
+}
+
+.box-index > div{
+	margin: 10px;
+	display: flex; 
+	justify-content: center;
+	flex-direction: column;
+}

@@ -20,7 +20,7 @@
         <form action="calchd.php" method="post">
 
           <center>
-            <img src="Logo_Intelbras.svg" alt="Imagem de página não encontrada" width="360" height="120" class="center" />
+            <img src="logo-armazenamento.png" alt="Imagem de página não encontrada" width="360" height="120" class="center" />
             <p>Quantas câmeras serão gravadas:</p>
             <input type="number" min="0" class=ncam name=ncam value="16"> <br>
 

@@ -1,7 +1,7 @@
 section {
 	font-family: "SF Pro", "Roboto", "Arial", "Helvetica", sans-serif;
    	font-size: 24px;
-   	background: #bedcbc
+   	background: #00a335
    	}
 p{
    	color: #3e5055;
@@ -17,7 +17,7 @@ li{
 }
 
 .container{
-	background: #bedcbc;
+	background: #00a335;
 	width: 100vw;
 	height: 100vh;
 	display: flex;
@@ -33,7 +33,6 @@ li{
 	border-color: #00a335;
 	background-color: white;
 	border-radius: 6px;
-
 }
 
 
