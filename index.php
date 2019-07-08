@@ -17,16 +17,16 @@
 
     <div class="box-index">
         <div class="b1">
-          <a href="calchd.php" class="btn btn-default mesmotamanho">Calculadora de HD</a>
+          <a href="armazenamento/calchd.php" class="btn btn-default mesmotamanho">Calculadora de HD</a>
         </div>
         <div class="b2">
-          <a href="calchd.php" class="btn btn-default mesmotamanho">Calculadora Teste</a>
+          <a href="tempo/calchd-tempo.php" class="btn btn-default mesmotamanho">Calculadora de Tempo</a>
         </div>
         <div class="b3">
-          <a href="calchd.php" class="btn btn-default mesmotamanho">Calculadora Teste</a> 
+          <a href="armazenamento/calchd.php" class="btn btn-default mesmotamanho">Calculadora de BitRate</a> 
         </div>
          <div class="b4"> 
-          <a href="calchd.php" class="btn btn-default mesmotamanho">Calculadora Teste</a>
+          <a href="armazenamento/calchd.php" class="btn btn-default mesmotamanho">Calculadora de Amor</a>
         </div>
     </div>
 
