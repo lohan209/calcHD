@@ -22,12 +22,12 @@
         <div class="b2">
           <a href="tempo/calchd-tempo.php" class="btn btn-default mesmotamanho">Calculadora de Tempo</a>
         </div>
-        /*<div class="b3">
+        <!--<div class="b3">
           <a href="armazenamento/calchd.php" class="btn btn-default mesmotamanho">Calculadora de BitRate</a> 
         </div>
          <div class="b4"> 
           <a href="armazenamento/calchd.php" class="btn btn-default mesmotamanho">Calculadora de Amor</a>
-        </div>*/
+        </div>-->
     </div>
 
   </div>
