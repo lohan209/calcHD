@@ -23,11 +23,11 @@
             <img class="img" src="../../../img/mibocam-branco.svg" alt="Imagem de página não encontrada" width="400" height="200" class="center" />
 
             <p>Qual seu cartão SD?</p>
-            <button name="im" value="16 GB"><img src="../../../img/calculadora/16gb.svg"></button>
-            <button name="im" value="32 GB"><img src="../../../img/calculadora/32gb.svg"></button>
-            <button name="im" value="64 GB"><img src="../../../img/calculadora/64gb.svg"></button>
-            <button name="im" value="128 GB"><img src="../../../img/calculadora/128gb.svg"></button>
-            <button name="im" value="128 GB"><img src="../../../img/calculadora/256gb.svg"></button>
+            <button name="im" value="16 GB"><img src="../16gb.svg"></button>
+            <button name="im" value="32 GB"><img src="../32gb.svg"></button>
+            <button name="im" value="64 GB"><img src="../64gb.svg"></button>
+            <button name="im" value="128 GB"><img src="../128gb.svg"></button>
+            <button name="im" value="128 GB"><img src="../256gb.svg"></button>
           </center>
         </form>
     </div>
