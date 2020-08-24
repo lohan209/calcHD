@@ -1,0 +1,127 @@
+body{
+   	background: #27bdbe
+}
+section {
+	font-family: "SF Pro", "Roboto", "Arial", "Helvetica", sans-serif;
+   	font-size: 20px;
+   	background: #27bdbe
+   	}
+p{
+   	color: #ffffff;
+}
+
+p.calchd{
+	color: #27bdbe;
+	font-size: 30px;
+}
+
+li{
+	display: inline;
+}
+
+.container{
+	background: #27bdbe;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center
+}
+
+button{
+  background: transparent;
+  border-color: transparent;
+}
+
+.box{
+	border-style: solid;
+	border-color: #27bdbe;
+	background-color: #27bdbe;
+	border-radius: 6px;
+}
+
+.box > div{
+	background-color: white;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #27bdbe;
+}
+
+input[type="number"] {
+	padding-left: 5px;
+  border: #fff solid 1px;
+  color: #fff;
+  border-style: hidden hidden solid hidden;
+    background-color: #27bdbe;
+    font-size: 15px;
+    line-height: 35px;
+    width: 195px;
+    background: #27bdbe;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border-radius: 3px;
+}
+
+
+
+select.bitrate{
+    border: #fff solid 1px;
+    color: #fff;
+    border-style: hidden hidden solid hidden;
+    font-size: 15px;
+    height: 40px;
+    width: 200px;
+    background: #27bdbe;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border-radius: 3px;
+	font-weight: 600;
+
+}
+
+select.bitrate > option:checked{
+	box-shadow: 0 0 10px 100px #27bdbe inset;
+}
+
+input.calc {
+	font-family: "SF Pro", "Roboto", "Arial", "Helvetica", sans-serif;
+	font-weight: 500;
+	background: #efeff0;
+	color: #27bdbe;
+	border: 0;
+	border-radius: 9px;
+	padding: 10px 30px;
+	font-size: 16px;
+}
+
+input.calc:hover {
+	background: #d1d1d1;
+}
+
+img.logo{
+	max-width: 360px;
+	max-height: auto;
+}
+
+a.mibocam{
+  font-family: "SF Pro", "Roboto", "Arial", "Helvetica", sans-serif;
+  font-weight: 500;
+  background: #efeff0;
+  color: #27bdbe;
+  border: 0;
+  border-radius: 9px;
+  padding: 20px 20px;
+  font-size: 16px;
+}
+
+input[type=submit]{
+  font-family: "SF Pro", "Roboto", "Arial", "Helvetica", sans-serif;
+  font-weight: 500;
+  background: #efeff0;
+  color: #27bdbe;
+  border: 0;
+  border-radius: 9px;
+  padding: 60px 60px;
+  font-size: 30px;
+}

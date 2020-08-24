@@ -1,0 +1,79 @@
+.center {
+    margin: auto;
+    display: block;
+    max-width: 75%;
+    padding: 10px;
+}
+
+.img-responsive {
+    display: block;
+}
+
+.img {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: inherit;
+    max-height: inherit;
+}
+
+.jumnbotron1 {
+    border-radius: 6px;
+}
+
+@font-face {
+    font-family: "MuseoSans";
+    src: url("../fonts/MuseoSans.otf");
+}
+
+.a-button {
+    background-color: #00a335;
+    /* Green */
+    color: white;
+    margin: auto;
+    display: block;
+    font-family: 'MuseoSans';
+    text-align: center;
+    text-indent: inherit;
+    max-width: inherit;
+    max-height: inherit;
+}
+
+.b-table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.b-td,
+.b-th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.b-tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+/* a.button3:hover{
+ background-color:#4095c6;
+} */
