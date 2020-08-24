@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Calculadora de HD</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap">
+    <link rel="stylesheet" type="text/css" href=../css/style.css>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <section>
+
+    <div class="container">
+
+      <div class="box">
+        <form action="calchd-modal.php" method="post">
+
+          <center>
+            <img class="img" src="../img/mibocam-branco.svg" alt="Imagem de página não encontrada" width="400" height="200" class="center" />
+
+            <p>Qual sua câmera?</p>
+            <select name="bitrate" class="bitrate" name=bitrate value="2048">
+                <option value="bitrate" disabled> Selecione o valor de bit rate.</option>
+                <option value="iM3"selected>iM3</option>
+                <option value="iM4">iM4</option>
+                <option value="iM5">iM5</option>
+                <option value="iC3">iC3</option>
+                <option value="iC4">iC4</option>
+                <option value="iC5">iC5</option>
+                <option value="iC7">iC7</option>
+            </select>
+
+            <br><br>
+            <p>Quantas horas por dia serão gravadas?</p>
+            <input type="number" min="0" max="24" name=hour value="24"> <br>
+
+            <br>
+            <p>Quantos dias serão gravados?</p>
+            <input type="number" min="0" name=days value="30"> <br>
+
+            <br>
+            <br>
+            <input type="submit" value="Calcular" class="calc">
+            <br>
+            <br>
+          </center>
+        </form>
+    </div>
+
+  </section>
+
+</body>
+</html>
