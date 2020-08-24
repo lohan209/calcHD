@@ -20,7 +20,7 @@
         <form action="../resultado.php" method="post">
 
           <center>
-            <img class="img" src="../../../img/mibocam-branco.svg" alt="Imagem de página não encontrada" width="400" height="200" class="center" />
+            <img class="img" src="../img/mibocam-branco.svg" alt="Imagem de página não encontrada" width="400" height="200" class="center" />
 
             <p>Qual seu cartão SD?</p>
             <button name="im" value="16 GB"><img src="../16gb.svg"></button>
