@@ -26,7 +26,7 @@
 
         <form action="mibocam2.php" method="POST">
           <center>
-            <img class="img" src="../../../img/mibocam-branco.svg" alt="Imagem não encontrada" width="400" height="200" class="center" />
+            <img class="img" src="../img/mibocam-branco.svg" alt="Imagem não encontrada" width="400" height="200" class="center" />
             <p>Qual sua câmera?</p>
             <button name="im" value="iM3"><img src="../im3s.svg"></button>
             <button name="im" value="iM4"><img src="../im4s.svg"></button>
