@@ -24,10 +24,10 @@
 
             <p>Qual modo de gravavação?</p>
 
-            <button name="im" value="Detecção de movimento"><img src="../../../img/calculadora/movimento.svg"></button>
-            <button name="im" value="Detecção de humanos"><img src="../../../img/calculadora/humanos.svg"></button>
-            <button name="im" value="Detecção de ruído"><img src="../../../img/calculadora/ruido.svg"></button>
-            <button name="im" value="Regular"><img src="../../../img/calculadora/regular.svg"></button>
+            <button name="im" value="Detecção de movimento"><img src="../movimento.svg"></button>
+            <button name="im" value="Detecção de humanos"><img src="../humanos.svg"></button>
+            <button name="im" value="Detecção de ruído"><img src="../ruido.svg"></button>
+            <button name="im" value="Regular"><img src="..//regular.svg"></button>
           </center>
         </form>
     </div>
